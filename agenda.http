@@ -1,0 +1,40 @@
+POST https://tdspm-ce89a-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "nome": "Joao Silva",
+    "email": "joao@teste.com",
+    "telefone": "(11) 1111-1111"
+}
+
+###
+
+POST https://tdspm-ce89a-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "nome": "Murillo Sant'Anna",
+    "email": "murillo@teste.com",
+    "telefone": "(11) 2121-2121"
+}
+
+###
+
+GET https://tdspm-ce89a-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+
+###
+
+DELETE https://tdspm-ce89a-default-rtdb.firebaseio.com/contatos/-O6Letr9ExFkHObRd7WJ.json HTTP/1.1
+
+###
+
+PUT https://tdspm-ce89a-default-rtdb.firebaseio.com/contatos/-O6Li8NnBk-cv_iB_NwR.json HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Joao Sapato",
+    "email": "joao@teste.com",
+    "telefone": "(11) 1111-1111"
+}
